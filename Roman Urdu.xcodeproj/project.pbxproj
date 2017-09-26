@@ -1,0 +1,865 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03AC735A1F2EF16700FE50D6 /* angie.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03AC73581F2EF16700FE50D6 /* angie.mp3 */; };
+		03AC735B1F2EF16700FE50D6 /* best of you.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03AC73591F2EF16700FE50D6 /* best of you.mp3 */; };
+		03AC735D1F2EF9F800FE50D6 /* HomeContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC735C1F2EF9F800FE50D6 /* HomeContainerViewController.swift */; };
+		03AC735F1F2EFBD000FE50D6 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC735E1F2EFBD000FE50D6 /* Extension.swift */; };
+		03AC73711F2F162600FE50D6 /* closer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03AC73601F2F162600FE50D6 /* closer.mp3 */; };
+		03AC73721F2F162600FE50D6 /* despacito.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03AC73611F2F162600FE50D6 /* despacito.mp3 */; };
+		03AC73731F2F162600FE50D6 /* enter sandman.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03AC73621F2F162600FE50D6 /* enter sandman.mp3 */; };
+		03AC73741F2F162600FE50D6 /* fade to black.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03AC73631F2F162600FE50D6 /* fade to black.mp3 */; };
+		03AC73751F2F162600FE50D6 /* get lucky.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03AC73641F2F162600FE50D6 /* get lucky.mp3 */; };
+		03AC73761F2F162600FE50D6 /* hey you.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03AC73651F2F162600FE50D6 /* hey you.mp3 */; };
+		03AC73771F2F162600FE50D6 /* i want to break free.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03AC73661F2F162600FE50D6 /* i want to break free.mp3 */; };
+		03AC73781F2F162600FE50D6 /* love the way you lie.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03AC73671F2F162600FE50D6 /* love the way you lie.mp3 */; };
+		03AC73791F2F162600FE50D6 /* master of puppets.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03AC73681F2F162600FE50D6 /* master of puppets.mp3 */; };
+		03AC737A1F2F162600FE50D6 /* not afraid.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03AC73691F2F162600FE50D6 /* not afraid.mp3 */; };
+		03AC737B1F2F162600FE50D6 /* one more time.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03AC736A1F2F162600FE50D6 /* one more time.mp3 */; };
+		03AC737C1F2F162600FE50D6 /* paint it black.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03AC736B1F2F162600FE50D6 /* paint it black.mp3 */; };
+		03AC737D1F2F162600FE50D6 /* running up that hill.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03AC736C1F2F162600FE50D6 /* running up that hill.mp3 */; };
+		03AC737E1F2F162600FE50D6 /* satisfaction.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03AC736D1F2F162600FE50D6 /* satisfaction.mp3 */; };
+		03AC737F1F2F162600FE50D6 /* terrible lie.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03AC736E1F2F162600FE50D6 /* terrible lie.mp3 */; };
+		03AC73801F2F162600FE50D6 /* under the bridge.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03AC736F1F2F162600FE50D6 /* under the bridge.mp3 */; };
+		03AC73811F2F162600FE50D6 /* we will rock you.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 03AC73701F2F162600FE50D6 /* we will rock you.mp3 */; };
+		03D898301F29D3EB00C5F6B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D8982F1F29D3EB00C5F6B3 /* AppDelegate.swift */; };
+		03D898351F29D3EB00C5F6B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03D898331F29D3EB00C5F6B3 /* Main.storyboard */; };
+		03D898371F29D3EB00C5F6B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03D898361F29D3EB00C5F6B3 /* Assets.xcassets */; };
+		03D8983A1F29D3EB00C5F6B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03D898381F29D3EB00C5F6B3 /* LaunchScreen.storyboard */; };
+		03D898451F29D3EB00C5F6B3 /* Roman_UrduTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D898441F29D3EB00C5F6B3 /* Roman_UrduTests.swift */; };
+		03D898501F29D3EB00C5F6B3 /* Roman_UrduUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D8984F1F29D3EB00C5F6B3 /* Roman_UrduUITests.swift */; };
+		03E5B4081F2C7F9F0079C1D7 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E5B4071F2C7F9F0079C1D7 /* Credentials.swift */; };
+		03E5B40A1F2C86610079C1D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E5B4091F2C86610079C1D7 /* ViewController.swift */; };
+		03E5B40F1F2C88030079C1D7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E5B40E1F2C88030079C1D7 /* User.swift */; };
+		14534EB499C7BC088FDF8DBA /* Pods_Roman_UrduUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2CDD4116FFDD2ED1C06DD0 /* Pods_Roman_UrduUITests.framework */; };
+		C56503EBEDFBA84DE75286D0 /* Pods_Roman_Urdu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24714CBDD570213CA32007AF /* Pods_Roman_Urdu.framework */; };
+		D5440884F9E82B20395D4DCF /* Pods_Roman_UrduTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5DE564ABC11525B9C21BA82 /* Pods_Roman_UrduTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03D898411F29D3EB00C5F6B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03D898241F29D3EB00C5F6B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03D8982B1F29D3EB00C5F6B3;
+			remoteInfo = "Roman Urdu";
+		};
+		03D8984C1F29D3EB00C5F6B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03D898241F29D3EB00C5F6B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03D8982B1F29D3EB00C5F6B3;
+			remoteInfo = "Roman Urdu";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		035C8DC07FF16E939C7E564D /* Pods-Roman UrduTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Roman UrduTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Roman UrduTests/Pods-Roman UrduTests.release.xcconfig"; sourceTree = "<group>"; };
+		037516BE87986275EAFCE6F6 /* Pods-Roman Urdu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Roman Urdu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Roman Urdu/Pods-Roman Urdu.debug.xcconfig"; sourceTree = "<group>"; };
+		03AC73581F2EF16700FE50D6 /* angie.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = angie.mp3; sourceTree = "<group>"; };
+		03AC73591F2EF16700FE50D6 /* best of you.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "best of you.mp3"; sourceTree = "<group>"; };
+		03AC735C1F2EF9F800FE50D6 /* HomeContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeContainerViewController.swift; sourceTree = "<group>"; };
+		03AC735E1F2EFBD000FE50D6 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		03AC73601F2F162600FE50D6 /* closer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = closer.mp3; sourceTree = "<group>"; };
+		03AC73611F2F162600FE50D6 /* despacito.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = despacito.mp3; sourceTree = "<group>"; };
+		03AC73621F2F162600FE50D6 /* enter sandman.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "enter sandman.mp3"; sourceTree = "<group>"; };
+		03AC73631F2F162600FE50D6 /* fade to black.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "fade to black.mp3"; sourceTree = "<group>"; };
+		03AC73641F2F162600FE50D6 /* get lucky.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "get lucky.mp3"; sourceTree = "<group>"; };
+		03AC73651F2F162600FE50D6 /* hey you.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "hey you.mp3"; sourceTree = "<group>"; };
+		03AC73661F2F162600FE50D6 /* i want to break free.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "i want to break free.mp3"; sourceTree = "<group>"; };
+		03AC73671F2F162600FE50D6 /* love the way you lie.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "love the way you lie.mp3"; sourceTree = "<group>"; };
+		03AC73681F2F162600FE50D6 /* master of puppets.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "master of puppets.mp3"; sourceTree = "<group>"; };
+		03AC73691F2F162600FE50D6 /* not afraid.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "not afraid.mp3"; sourceTree = "<group>"; };
+		03AC736A1F2F162600FE50D6 /* one more time.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "one more time.mp3"; sourceTree = "<group>"; };
+		03AC736B1F2F162600FE50D6 /* paint it black.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "paint it black.mp3"; sourceTree = "<group>"; };
+		03AC736C1F2F162600FE50D6 /* running up that hill.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "running up that hill.mp3"; sourceTree = "<group>"; };
+		03AC736D1F2F162600FE50D6 /* satisfaction.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = satisfaction.mp3; sourceTree = "<group>"; };
+		03AC736E1F2F162600FE50D6 /* terrible lie.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "terrible lie.mp3"; sourceTree = "<group>"; };
+		03AC736F1F2F162600FE50D6 /* under the bridge.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "under the bridge.mp3"; sourceTree = "<group>"; };
+		03AC73701F2F162600FE50D6 /* we will rock you.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "we will rock you.mp3"; sourceTree = "<group>"; };
+		03D8982C1F29D3EB00C5F6B3 /* Roman Urdu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Roman Urdu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03D8982F1F29D3EB00C5F6B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03D898341F29D3EB00C5F6B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03D898361F29D3EB00C5F6B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03D898391F29D3EB00C5F6B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03D8983B1F29D3EB00C5F6B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03D898401F29D3EB00C5F6B3 /* Roman UrduTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Roman UrduTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03D898441F29D3EB00C5F6B3 /* Roman_UrduTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roman_UrduTests.swift; sourceTree = "<group>"; };
+		03D898461F29D3EB00C5F6B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03D8984B1F29D3EB00C5F6B3 /* Roman UrduUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Roman UrduUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03D8984F1F29D3EB00C5F6B3 /* Roman_UrduUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roman_UrduUITests.swift; sourceTree = "<group>"; };
+		03D898511F29D3EB00C5F6B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03E5B4071F2C7F9F0079C1D7 /* Credentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+		03E5B4091F2C86610079C1D7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03E5B40B1F2C877A0079C1D7 /* Roman Urdu-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Roman Urdu-Bridging-Header.h"; sourceTree = "<group>"; };
+		03E5B40E1F2C88030079C1D7 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1C2DBCD25F2273F3F2F611EB /* Pods-Roman UrduTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Roman UrduTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Roman UrduTests/Pods-Roman UrduTests.debug.xcconfig"; sourceTree = "<group>"; };
+		24714CBDD570213CA32007AF /* Pods_Roman_Urdu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Roman_Urdu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B6BBD7E207348A26E3E92F2 /* Pods-Roman UrduUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Roman UrduUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Roman UrduUITests/Pods-Roman UrduUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A5DE564ABC11525B9C21BA82 /* Pods_Roman_UrduTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Roman_UrduTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB38C3D96A737FDC587F83D7 /* Pods-Roman UrduUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Roman UrduUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Roman UrduUITests/Pods-Roman UrduUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE90249A3C46A3AD90559FD1 /* Pods-Roman Urdu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Roman Urdu.release.xcconfig"; path = "Pods/Target Support Files/Pods-Roman Urdu/Pods-Roman Urdu.release.xcconfig"; sourceTree = "<group>"; };
+		FC2CDD4116FFDD2ED1C06DD0 /* Pods_Roman_UrduUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Roman_UrduUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03D898291F29D3EB00C5F6B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56503EBEDFBA84DE75286D0 /* Pods_Roman_Urdu.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D8983D1F29D3EB00C5F6B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5440884F9E82B20395D4DCF /* Pods_Roman_UrduTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D898481F29D3EB00C5F6B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14534EB499C7BC088FDF8DBA /* Pods_Roman_UrduUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03AC73571F2EF16700FE50D6 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				03AC73581F2EF16700FE50D6 /* angie.mp3 */,
+				03AC73591F2EF16700FE50D6 /* best of you.mp3 */,
+				03AC73601F2F162600FE50D6 /* closer.mp3 */,
+				03AC73611F2F162600FE50D6 /* despacito.mp3 */,
+				03AC73621F2F162600FE50D6 /* enter sandman.mp3 */,
+				03AC73631F2F162600FE50D6 /* fade to black.mp3 */,
+				03AC73641F2F162600FE50D6 /* get lucky.mp3 */,
+				03AC73651F2F162600FE50D6 /* hey you.mp3 */,
+				03AC73661F2F162600FE50D6 /* i want to break free.mp3 */,
+				03AC73671F2F162600FE50D6 /* love the way you lie.mp3 */,
+				03AC73681F2F162600FE50D6 /* master of puppets.mp3 */,
+				03AC73691F2F162600FE50D6 /* not afraid.mp3 */,
+				03AC736A1F2F162600FE50D6 /* one more time.mp3 */,
+				03AC736B1F2F162600FE50D6 /* paint it black.mp3 */,
+				03AC736C1F2F162600FE50D6 /* running up that hill.mp3 */,
+				03AC736D1F2F162600FE50D6 /* satisfaction.mp3 */,
+				03AC736E1F2F162600FE50D6 /* terrible lie.mp3 */,
+				03AC736F1F2F162600FE50D6 /* under the bridge.mp3 */,
+				03AC73701F2F162600FE50D6 /* we will rock you.mp3 */,
+			);
+			name = Songs;
+			path = "Roman Urdu/Songs";
+			sourceTree = "<group>";
+		};
+		03D898231F29D3EB00C5F6B3 = {
+			isa = PBXGroup;
+			children = (
+				03AC73571F2EF16700FE50D6 /* Songs */,
+				03D8982E1F29D3EB00C5F6B3 /* Roman Urdu */,
+				03D898431F29D3EB00C5F6B3 /* Roman UrduTests */,
+				03D8984E1F29D3EB00C5F6B3 /* Roman UrduUITests */,
+				03D8982D1F29D3EB00C5F6B3 /* Products */,
+				03D8985D1F29EB6000C5F6B3 /* Frameworks */,
+				29421F69AAA86004166B8EDE /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		03D8982D1F29D3EB00C5F6B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03D8982C1F29D3EB00C5F6B3 /* Roman Urdu.app */,
+				03D898401F29D3EB00C5F6B3 /* Roman UrduTests.xctest */,
+				03D8984B1F29D3EB00C5F6B3 /* Roman UrduUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03D8982E1F29D3EB00C5F6B3 /* Roman Urdu */ = {
+			isa = PBXGroup;
+			children = (
+				03D8982F1F29D3EB00C5F6B3 /* AppDelegate.swift */,
+				03AC735E1F2EFBD000FE50D6 /* Extension.swift */,
+				03AC735C1F2EF9F800FE50D6 /* HomeContainerViewController.swift */,
+				03E5B4091F2C86610079C1D7 /* ViewController.swift */,
+				03E5B40E1F2C88030079C1D7 /* User.swift */,
+				03E5B4071F2C7F9F0079C1D7 /* Credentials.swift */,
+				03D898331F29D3EB00C5F6B3 /* Main.storyboard */,
+				03D898361F29D3EB00C5F6B3 /* Assets.xcassets */,
+				03D898381F29D3EB00C5F6B3 /* LaunchScreen.storyboard */,
+				03D8983B1F29D3EB00C5F6B3 /* Info.plist */,
+				03E5B40B1F2C877A0079C1D7 /* Roman Urdu-Bridging-Header.h */,
+			);
+			path = "Roman Urdu";
+			sourceTree = "<group>";
+		};
+		03D898431F29D3EB00C5F6B3 /* Roman UrduTests */ = {
+			isa = PBXGroup;
+			children = (
+				03D898441F29D3EB00C5F6B3 /* Roman_UrduTests.swift */,
+				03D898461F29D3EB00C5F6B3 /* Info.plist */,
+			);
+			path = "Roman UrduTests";
+			sourceTree = "<group>";
+		};
+		03D8984E1F29D3EB00C5F6B3 /* Roman UrduUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03D8984F1F29D3EB00C5F6B3 /* Roman_UrduUITests.swift */,
+				03D898511F29D3EB00C5F6B3 /* Info.plist */,
+			);
+			path = "Roman UrduUITests";
+			sourceTree = "<group>";
+		};
+		03D8985D1F29EB6000C5F6B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24714CBDD570213CA32007AF /* Pods_Roman_Urdu.framework */,
+				A5DE564ABC11525B9C21BA82 /* Pods_Roman_UrduTests.framework */,
+				FC2CDD4116FFDD2ED1C06DD0 /* Pods_Roman_UrduUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		29421F69AAA86004166B8EDE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				037516BE87986275EAFCE6F6 /* Pods-Roman Urdu.debug.xcconfig */,
+				BE90249A3C46A3AD90559FD1 /* Pods-Roman Urdu.release.xcconfig */,
+				1C2DBCD25F2273F3F2F611EB /* Pods-Roman UrduTests.debug.xcconfig */,
+				035C8DC07FF16E939C7E564D /* Pods-Roman UrduTests.release.xcconfig */,
+				AB38C3D96A737FDC587F83D7 /* Pods-Roman UrduUITests.debug.xcconfig */,
+				2B6BBD7E207348A26E3E92F2 /* Pods-Roman UrduUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03D8982B1F29D3EB00C5F6B3 /* Roman Urdu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03D898541F29D3EB00C5F6B3 /* Build configuration list for PBXNativeTarget "Roman Urdu" */;
+			buildPhases = (
+				BE83C8C8DFC58164B70B3150 /* [CP] Check Pods Manifest.lock */,
+				03D898281F29D3EB00C5F6B3 /* Sources */,
+				03D898291F29D3EB00C5F6B3 /* Frameworks */,
+				03D8982A1F29D3EB00C5F6B3 /* Resources */,
+				03D898621F29EB8E00C5F6B3 /* ShellScript */,
+				E8A1488062CE74CF0E7100EF /* [CP] Embed Pods Frameworks */,
+				2FD21EDB11C9FA3740534862 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Roman Urdu";
+			productName = "Roman Urdu";
+			productReference = 03D8982C1F29D3EB00C5F6B3 /* Roman Urdu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03D8983F1F29D3EB00C5F6B3 /* Roman UrduTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03D898571F29D3EB00C5F6B3 /* Build configuration list for PBXNativeTarget "Roman UrduTests" */;
+			buildPhases = (
+				EED461BED3E68254B6D2159A /* [CP] Check Pods Manifest.lock */,
+				03D8983C1F29D3EB00C5F6B3 /* Sources */,
+				03D8983D1F29D3EB00C5F6B3 /* Frameworks */,
+				03D8983E1F29D3EB00C5F6B3 /* Resources */,
+				D9674AEDBEA1F04ACC710900 /* [CP] Embed Pods Frameworks */,
+				E6860D6B90814437F010E23F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03D898421F29D3EB00C5F6B3 /* PBXTargetDependency */,
+			);
+			name = "Roman UrduTests";
+			productName = "Roman UrduTests";
+			productReference = 03D898401F29D3EB00C5F6B3 /* Roman UrduTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03D8984A1F29D3EB00C5F6B3 /* Roman UrduUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03D8985A1F29D3EB00C5F6B3 /* Build configuration list for PBXNativeTarget "Roman UrduUITests" */;
+			buildPhases = (
+				C7C8ADB300F672CE9C75E42B /* [CP] Check Pods Manifest.lock */,
+				03D898471F29D3EB00C5F6B3 /* Sources */,
+				03D898481F29D3EB00C5F6B3 /* Frameworks */,
+				03D898491F29D3EB00C5F6B3 /* Resources */,
+				9A72AE80C68A5E0110CAF0F9 /* [CP] Embed Pods Frameworks */,
+				19659F54A18E77822E8E5851 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03D8984D1F29D3EB00C5F6B3 /* PBXTargetDependency */,
+			);
+			name = "Roman UrduUITests";
+			productName = "Roman UrduUITests";
+			productReference = 03D8984B1F29D3EB00C5F6B3 /* Roman UrduUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03D898241F29D3EB00C5F6B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Amaan Ullah";
+				TargetAttributes = {
+					03D8982B1F29D3EB00C5F6B3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4DA5J3W8HN;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					03D8983F1F29D3EB00C5F6B3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4DA5J3W8HN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 03D8982B1F29D3EB00C5F6B3;
+					};
+					03D8984A1F29D3EB00C5F6B3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4DA5J3W8HN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 03D8982B1F29D3EB00C5F6B3;
+					};
+				};
+			};
+			buildConfigurationList = 03D898271F29D3EB00C5F6B3 /* Build configuration list for PBXProject "Roman Urdu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03D898231F29D3EB00C5F6B3;
+			productRefGroup = 03D8982D1F29D3EB00C5F6B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03D8982B1F29D3EB00C5F6B3 /* Roman Urdu */,
+				03D8983F1F29D3EB00C5F6B3 /* Roman UrduTests */,
+				03D8984A1F29D3EB00C5F6B3 /* Roman UrduUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03D8982A1F29D3EB00C5F6B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AC737E1F2F162600FE50D6 /* satisfaction.mp3 in Resources */,
+				03AC737F1F2F162600FE50D6 /* terrible lie.mp3 in Resources */,
+				03AC73711F2F162600FE50D6 /* closer.mp3 in Resources */,
+				03AC73721F2F162600FE50D6 /* despacito.mp3 in Resources */,
+				03D8983A1F29D3EB00C5F6B3 /* LaunchScreen.storyboard in Resources */,
+				03AC737B1F2F162600FE50D6 /* one more time.mp3 in Resources */,
+				03AC73811F2F162600FE50D6 /* we will rock you.mp3 in Resources */,
+				03AC735B1F2EF16700FE50D6 /* best of you.mp3 in Resources */,
+				03AC73761F2F162600FE50D6 /* hey you.mp3 in Resources */,
+				03AC737D1F2F162600FE50D6 /* running up that hill.mp3 in Resources */,
+				03AC737A1F2F162600FE50D6 /* not afraid.mp3 in Resources */,
+				03AC737C1F2F162600FE50D6 /* paint it black.mp3 in Resources */,
+				03D898371F29D3EB00C5F6B3 /* Assets.xcassets in Resources */,
+				03D898351F29D3EB00C5F6B3 /* Main.storyboard in Resources */,
+				03AC73771F2F162600FE50D6 /* i want to break free.mp3 in Resources */,
+				03AC73801F2F162600FE50D6 /* under the bridge.mp3 in Resources */,
+				03AC73781F2F162600FE50D6 /* love the way you lie.mp3 in Resources */,
+				03AC735A1F2EF16700FE50D6 /* angie.mp3 in Resources */,
+				03AC73751F2F162600FE50D6 /* get lucky.mp3 in Resources */,
+				03AC73741F2F162600FE50D6 /* fade to black.mp3 in Resources */,
+				03AC73731F2F162600FE50D6 /* enter sandman.mp3 in Resources */,
+				03AC73791F2F162600FE50D6 /* master of puppets.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D8983E1F29D3EB00C5F6B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D898491F29D3EB00C5F6B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03D898621F29EB8E00C5F6B3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+			showEnvVarsInLog = 0;
+		};
+		19659F54A18E77822E8E5851 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Roman UrduUITests/Pods-Roman UrduUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FD21EDB11C9FA3740534862 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Roman Urdu/Pods-Roman Urdu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A72AE80C68A5E0110CAF0F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Roman UrduUITests/Pods-Roman UrduUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE83C8C8DFC58164B70B3150 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C7C8ADB300F672CE9C75E42B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D9674AEDBEA1F04ACC710900 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Roman UrduTests/Pods-Roman UrduTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6860D6B90814437F010E23F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Roman UrduTests/Pods-Roman UrduTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8A1488062CE74CF0E7100EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Roman Urdu/Pods-Roman Urdu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EED461BED3E68254B6D2159A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03D898281F29D3EB00C5F6B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E5B40F1F2C88030079C1D7 /* User.swift in Sources */,
+				03E5B40A1F2C86610079C1D7 /* ViewController.swift in Sources */,
+				03AC735D1F2EF9F800FE50D6 /* HomeContainerViewController.swift in Sources */,
+				03AC735F1F2EFBD000FE50D6 /* Extension.swift in Sources */,
+				03E5B4081F2C7F9F0079C1D7 /* Credentials.swift in Sources */,
+				03D898301F29D3EB00C5F6B3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D8983C1F29D3EB00C5F6B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D898451F29D3EB00C5F6B3 /* Roman_UrduTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03D898471F29D3EB00C5F6B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D898501F29D3EB00C5F6B3 /* Roman_UrduUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03D898421F29D3EB00C5F6B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03D8982B1F29D3EB00C5F6B3 /* Roman Urdu */;
+			targetProxy = 03D898411F29D3EB00C5F6B3 /* PBXContainerItemProxy */;
+		};
+		03D8984D1F29D3EB00C5F6B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03D8982B1F29D3EB00C5F6B3 /* Roman Urdu */;
+			targetProxy = 03D8984C1F29D3EB00C5F6B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03D898331F29D3EB00C5F6B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03D898341F29D3EB00C5F6B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03D898381F29D3EB00C5F6B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03D898391F29D3EB00C5F6B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03D898521F29D3EB00C5F6B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03D898531F29D3EB00C5F6B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03D898551F29D3EB00C5F6B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 037516BE87986275EAFCE6F6 /* Pods-Roman Urdu.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4DA5J3W8HN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Roman Urdu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RomanUrdu.Roman-Urdu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Roman Urdu/Roman Urdu-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		03D898561F29D3EB00C5F6B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE90249A3C46A3AD90559FD1 /* Pods-Roman Urdu.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4DA5J3W8HN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Roman Urdu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RomanUrdu.Roman-Urdu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Roman Urdu/Roman Urdu-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		03D898581F29D3EB00C5F6B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C2DBCD25F2273F3F2F611EB /* Pods-Roman UrduTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4DA5J3W8HN;
+				INFOPLIST_FILE = "Roman UrduTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RomanUrdu.Roman-UrduTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roman Urdu.app/Roman Urdu";
+			};
+			name = Debug;
+		};
+		03D898591F29D3EB00C5F6B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 035C8DC07FF16E939C7E564D /* Pods-Roman UrduTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4DA5J3W8HN;
+				INFOPLIST_FILE = "Roman UrduTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RomanUrdu.Roman-UrduTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roman Urdu.app/Roman Urdu";
+			};
+			name = Release;
+		};
+		03D8985B1F29D3EB00C5F6B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB38C3D96A737FDC587F83D7 /* Pods-Roman UrduUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4DA5J3W8HN;
+				INFOPLIST_FILE = "Roman UrduUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RomanUrdu.Roman-UrduUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Roman Urdu";
+			};
+			name = Debug;
+		};
+		03D8985C1F29D3EB00C5F6B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B6BBD7E207348A26E3E92F2 /* Pods-Roman UrduUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4DA5J3W8HN;
+				INFOPLIST_FILE = "Roman UrduUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RomanUrdu.Roman-UrduUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Roman Urdu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03D898271F29D3EB00C5F6B3 /* Build configuration list for PBXProject "Roman Urdu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D898521F29D3EB00C5F6B3 /* Debug */,
+				03D898531F29D3EB00C5F6B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03D898541F29D3EB00C5F6B3 /* Build configuration list for PBXNativeTarget "Roman Urdu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D898551F29D3EB00C5F6B3 /* Debug */,
+				03D898561F29D3EB00C5F6B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03D898571F29D3EB00C5F6B3 /* Build configuration list for PBXNativeTarget "Roman UrduTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D898581F29D3EB00C5F6B3 /* Debug */,
+				03D898591F29D3EB00C5F6B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03D8985A1F29D3EB00C5F6B3 /* Build configuration list for PBXNativeTarget "Roman UrduUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D8985B1F29D3EB00C5F6B3 /* Debug */,
+				03D8985C1F29D3EB00C5F6B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03D898241F29D3EB00C5F6B3 /* Project object */;
+}
